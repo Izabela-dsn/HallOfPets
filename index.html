@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Hall Pet</title>
+  </head>
+  <body>
+    <header>
+      <h2>Crie uma hall com seus pets mais amados</h2>
+      <button>adicionar pet</button>
+    </header>
+    <dialog open class="modal">
+      <form action="dialog">
+        <span class="closeModal"
+          ><img src="./assets/x.svg" alt="Fechar"
+        /></span>
+        <h3>adicione seu pet</h3>
+        <section>
+          <label for="namePet">Nome</label>
+          <input type="text" name="" id="namePet" />
+          <label for="age">Idade</label>
+          <input type="text" id="age" />
+          <label for="photo">Foto</label>
+          <input type="file" />
+        </section>
+        <button id="btnForm">adicionar pet</button>
+      </form>
+    </dialog>
+    <section id="pet">
+      <div id="card">
+        <img
+          src="https://images.unsplash.com/photo-1558322394-4d8813ceef8a?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="cachorro sem raça definida"
+        />
+        <div class="infoAboutPet">
+          <span id="name">Jao</span>
+          <span id="yearsOld">8 anos</span>
+        </div>
+      </div>
+      <div id="card">
+        <img
+          src="https://images.unsplash.com/photo-1558322394-4d8813ceef8a?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="cachorro sem raça definida"
+        />
+        <div class="infoAboutPet">
+          <span id="name">Jao</span>
+          <span id="yearsOld">8 anos e 3 meses</span>
+        </div>
+      </div>
+      <div id="card">
+        <img
+          src="https://images.unsplash.com/photo-1558322394-4d8813ceef8a?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="cachorro sem raça definida"
+        />
+        <div class="infoAboutPet">
+          <span id="name">Jao</span>
+          <span id="yearsOld">8 anos</span>
+        </div>
+      </div>
+    </section>
+    <footer>
+      Criado por <a href="https://github.com/Izabela-dsn">izabeladsn</a>
+    </footer>
+  </body>
+</html>
