@@ -1,0 +1,80 @@
+dialog {
+  border: none;
+  border-radius: 5px;
+  background-color: #c3efc7;
+  width: 500px;
+  height: 500px;
+  margin: -3rem auto;
+}
+
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+form {
+  text-align: center;
+}
+
+form span {
+  width: 100%;
+  display: inline-flex;
+  justify-content: flex-end;
+}
+
+span img {
+  padding: 0.5rem 0.5rem 0 0;
+}
+
+dialog h3 {
+  font: 600 26px "Poppins", sans-serif;
+  color: #299035;
+}
+
+dialog section {
+  margin: 2.8rem 5.6rem 3.3rem 5.6rem;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+dialog section label {
+  font: 300 18px "Poppins", sans-serif;
+  color: #299035;
+}
+
+section input {
+  margin-bottom: 1.4rem;
+  height: 2rem;
+  border-radius: 0.3rem;
+  border: 1px solid #38af46;
+  padding-left: 0.5rem;
+  font: 400 12px "Poppins", sans-serif;
+  outline: none;
+}
+
+section input[type="file"],
+input::file-selector-button {
+  height: 2rem;
+  padding: 0;
+  background-color: white;
+}
+
+section input::file-selector-button {
+  border: 0;
+  border-right: 1px solid #38af46;
+  border-radius: 0;
+  padding: 0 0.2rem;
+  background-color: #93e29c;
+}
+
+section input::file-selector-button:hover {
+  background-color: #299035;
+  transition: 500ms;
+  cursor: pointer;
+}
+
+.modal #btnForm {
+  background-color: #f5f5f5;
+  border: 1px solid #299035;
+  color: #299035;
+}
