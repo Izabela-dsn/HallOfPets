@@ -16,27 +16,31 @@
   <body>
     <header>
       <h2>Crie uma hall com seus pets mais amados</h2>
-      <button>adicionar pet</button>
+      <button id="btnModal">adicionar pet</button>
     </header>
-    <dialog open class="modal">
-      <form action="dialog">
+    <dialog class="modal">
+      <form method="dialog">
         <span class="closeModal"
-          ><img src="./assets/x.svg" alt="Fechar"
+          ><img
+            aria-label="Fechar modal"
+            src="./assets/x.svg"
+            alt="Fechar"
+            class="close"
         /></span>
         <h3>adicione seu pet</h3>
         <section>
           <label for="namePet">Nome</label>
-          <input type="text" name="" id="namePet" placeholder="Nina" />
+          <input type="text" id="namePet" placeholder="Nina" required />
           <label for="age">Idade</label>
-          <input type="text" id="age" placeholder="1 ano e 10 meses" />
+          <input type="text" id="age" placeholder="1 ano e 10 meses" required />
           <label for="photo">Foto</label>
-          <input type="file" />
+          <input type="file" id="photo" accept="image/*" />
         </section>
-        <button id="btnForm">adicionar pet</button>
+        <button id="btnForm" type="submit">adicionar pet</button>
       </form>
     </dialog>
     <section id="pet">
-      <div id="card">
+      <!-- <div id="card">
         <img
           src="https://images.unsplash.com/photo-1558322394-4d8813ceef8a?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="cachorro sem raça definida"
@@ -65,10 +69,12 @@
           <span id="name">Jao</span>
           <span id="yearsOld">8 anos</span>
         </div>
-      </div>
+      </div> -->
     </section>
     <footer>
       Criado por <a href="https://github.com/Izabela-dsn">izabeladsn</a>
     </footer>
+
+    <script src="app.js"></script>
   </body>
 </html>
