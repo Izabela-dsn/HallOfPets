@@ -14,3 +14,6 @@ https://izabela-dsn.github.io/HallOfPets/
 
 ### To-do
 🟡 Responsiveness
+
+### Suggestions 
+For suggestions please open an Issue
